@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.heading {
+  color: white;
+  font-family: "roboto";
+  font-size: 25px;
+  margin: 10px;
+}
+.bg-container {
+  background-color: #0f172a;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  width: 200px;
+}
+
+@media (min-width: "768px") {
+  .pic {
+    width: 300px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+}
